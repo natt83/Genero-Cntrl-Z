@@ -12,7 +12,6 @@ font-family:"Ysabeau";
 }
 
 header{
-    background-color:#24D4DF ;
     display: flex;
     align-items: center;
 }
@@ -23,10 +22,11 @@ img{
 .title-container {
     display: flex;
     flex-direction:column;
+
 }
 
 h1{ display: flex;
-    justify-content: left;
+    justify-content:center;
     font-size: 24px;
 }
 h2{
@@ -34,3 +34,4 @@ h2{
     font-size: 18px;
     font-weight: normal;
 }
+
