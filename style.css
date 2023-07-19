@@ -19,6 +19,7 @@
     flex-direction: row;
     justify-content: space-around;   
     align-items: baseline; 
+    margin-top: 12vh;
    
        
 }
@@ -41,7 +42,7 @@ footer {
     border: black 2px solid;
     background: linear-gradient(#1E6468, #24D4DF);    
     padding-bottom: 100px;
-    margin-bottom: 0%;
+
     
 
        }
@@ -54,6 +55,7 @@ footer {
     align-items: center;
     justify-content: space-around;
     font-size: 3vh;
+    margin-top: 05vh
 
 }
 
