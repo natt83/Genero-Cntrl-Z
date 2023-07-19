@@ -33,8 +33,8 @@
 .centrado {
     position: absolute;
     top: 25%;
-    right: 75%;
-    font-size:350%;
+    right: 80%;
+    font-size:300%;
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-family:"Ysabeau";
@@ -45,7 +45,7 @@
     position: absolute;
     top: 50%;
     right: 70%;
-    font-size: 250%;
+    font-size: 330%;
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-family:"Ysabeau";
@@ -58,7 +58,7 @@
     top: 70%;
     right: 80%;
     color:white;
-    font-family:"Cinzel";
-    src: url(./Cinzel-VariableFont_wght.ttf);
+    font-family:"Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
 }
 
