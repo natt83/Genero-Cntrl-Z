@@ -9,15 +9,46 @@ font-family:"Ysabeau";
 @font-face {
     font-family:"Cinzel";
     src: url(./Cinzel-VariableFont_wght.ttf);
+    
 }
- .total { display: flex;
-            justify-content:flex-end;
-             background: linear-gradient(#1e6468,#24d4df)
-                       
-          
- 
+
+.total { 
+     display: flex;
+     background: linear-gradient(#1e6468,#24d4df);
+     height: 10vh;
+     align-items: center;
 
  }
- .inicio{ display: flex;
-justify-content: flex-start;
+
+ .inicio{ 
+    display: flex;
+    justify-content: flex-start;
+    background-color:#2A959B;
+    color:rgb(255, 255, 255) ;
+    font-family:"cinzel" ;
+    margin-left: 5vh;
+    margin-right: 15vh;
+    border-radius: 25%; 
+    border: #1e6468;
+
+    
  }
+ .conteinerparrafo{ 
+    width:100%; 
+    justify-content: end;
+    margin-left: 5vh;
+    margin-right: 15vh;
+}
+
+.parrafo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:white ;
+    font-family: "cinzel" ;
+   
+
+}
+ 
+
+ 
