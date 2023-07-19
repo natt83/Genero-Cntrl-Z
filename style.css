@@ -11,27 +11,25 @@ font-family:"Ysabeau";
     src: url(./Cinzel-VariableFont_wght.ttf);
 }
 
-header{
-    display: flex;
-    align-items: center;
+.contenedor{
+    position: relative;
+    display: inline-block;
+    text-align: center;
 }
-img{
-    border-radius:50;
-    margin-right:20 px;
+.centrado{
+    position: absolute;
+    top:40%;
+    right: 75%;
+    transform: translate(-50% ,-50%);
+    color: aliceblue;
+    font-size:larger;
+    
 }
-.title-container {
-    display: flex;
-    flex-direction:column;
+.subtitle{
+    position: absolute;
+    top: 50%;
+    right:75%;
+    color:antiquewhite;
+}
 
-}
-
-h1{ display: flex;
-    justify-content:center;
-    font-size: 24px;
-}
-h2{
-    margin: 0;
-    font-size: 18px;
-    font-weight: normal;
-}
 
