@@ -34,29 +34,30 @@
     position: absolute;
     top: 25%;
     right: 75%;
+    font-size:350%;
     transform: translate(-50%, -50%);
     color: aliceblue;
-    font-size: xx-large;
     font-family:"Ysabeau";
     src: url(./YsabeauOffice-VariableFont_wght.ttf);
 
 }
 .control h1{
     position: absolute;
-    top: 40%;
+    top: 50%;
     right: 70%;
+    font-size: 250%;
     transform: translate(-50%, -50%);
     color: aliceblue;
-    font-size:xx-large;
     font-family:"Ysabeau";
     src: url(./YsabeauOffice-VariableFont_wght.ttf);
 }
 
 .subtitle {
     position: absolute;
-    top: 50%;
-    right: 75%;
-    color: antiquewhite;
+    font-size:190%;
+    top: 70%;
+    right: 80%;
+    color:white;
     font-family:"Cinzel";
     src: url(./Cinzel-VariableFont_wght.ttf);
 }
