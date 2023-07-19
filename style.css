@@ -32,12 +32,24 @@
 
 .centrado {
     position: absolute;
+    top: 25%;
+    right: 75%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-size: xx-large;
+    font-family:"Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+
+}
+.control h1{
+    position: absolute;
     top: 40%;
     right: 70%;
     transform: translate(-50%, -50%);
     color: aliceblue;
-    font-size: xx-large;
-
+    font-size:xx-large;
+    font-family:"Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
 }
 
 .subtitle {
@@ -45,5 +57,7 @@
     top: 50%;
     right: 75%;
     color: antiquewhite;
-    font-size: larger;
+    font-family:"Cinzel";
+    src: url(./Cinzel-VariableFont_wght.ttf);
 }
+
