@@ -39,7 +39,6 @@
     font-family:"Ysabeau";
     margin-left: 6vw;
 }
-<<<<<<< HEAD
 
 .subtitle {
 
@@ -97,11 +96,7 @@
  
 
  
-=======
-@font-face {
-    font-family:"Cinzel";
-    src: url(./Cinzel-VariableFont_wght.ttf);
-}
+
 #body{
 background-color: black;
 padding-top: 5vh;
@@ -142,4 +137,3 @@ padding-bottom: 5vh;
 a{text-decoration: none;
 color: yellow;
 }
->>>>>>> featuremain
