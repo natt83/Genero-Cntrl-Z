@@ -166,9 +166,11 @@ color: yellow;
 
 
 footer {
-    border: black 2px solid;
+
     background: linear-gradient(#1E6468, #24D4DF);    
-    padding-bottom: 8vh
+    padding-bottom: 8vh;
+    padding-top: 8vh;
+    
  
 
        }
@@ -180,7 +182,6 @@ footer {
     align-items: center;
     justify-content: space-around;
     font-size: 3vh;
-    margin-top: 05vh
 
 }
 
