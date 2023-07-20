@@ -10,3 +10,21 @@ font-family:"Ysabeau";
     font-family:"Cinzel";
     src: url(./Cinzel-VariableFont_wght.ttf);
 }
+
+.main{
+    background-color: black;
+    color: white;
+
+    
+    
+    
+}
+
+
+.datos{
+     display: flex;
+     flex-direction: column ;
+     text-align: center;
+         
+} 
+
