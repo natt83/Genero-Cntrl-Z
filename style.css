@@ -1,12 +1,64 @@
-*{margin:0;
-padding: 0;
-font-family:"Ysabeau";
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Ysabeau";
 }
+
 @font-face {
+    font-family: "Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: "Cinzel";
+    src: url(./Cinzel-VariableFont_wght.ttf);
+}
+
+
+.contenedor {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+    
+}
+ .imagen{
+    background-size: cover;
+    width:100%;
+}
+
+.centrado {
+    position: absolute;
+    top: 25%;
+    right: 80%;
+    font-size:300%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family:"Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+
+}
+.control h1{
+    position: absolute;
+    top: 50%;
+    right: 70%;
+    font-size: 330%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
     font-family:"Ysabeau";
     src: url(./YsabeauOffice-VariableFont_wght.ttf);
 }
-@font-face {
-    font-family:"Cinzel";
-    src: url(./Cinzel-VariableFont_wght.ttf);
+
+.subtitle {
+    position: absolute;
+    font-size:190%;
+    top: 70%;
+    right: 80%;
+    color:white;
+    font-family:"Ysabeau";
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);
 }
+
