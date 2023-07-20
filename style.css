@@ -47,4 +47,6 @@ padding-bottom: 5vh;
     height: 1vh;
     width: 100%;
 }
-
+a{text-decoration: none;
+color: yellow;
+}
