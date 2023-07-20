@@ -29,10 +29,7 @@ font-family:"Ysabeau";
     margin-left: 5vh;
     margin-right: 15vh;
     border-radius: 25%; 
-    border: #1e6468;
-
-    
- }
+    border: #1e6468;}
  .conteinerparrafo{ 
     width:100%; 
     justify-content: end;
@@ -45,10 +42,7 @@ font-family:"Ysabeau";
     justify-content: flex-end;
     align-items: center;
     color:white ;
-    font-family: "cinzel" ;
-   
-
-}
+    font-family: "cinzel" ;}
  
 
  
