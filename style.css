@@ -12,25 +12,39 @@ font-family:"Ysabeau";
 }
 #body{
 background-color: black;
+padding-top: 5vh;
+padding-bottom: 5vh;
 }
-.mediumBoxsup{
+.mediumBox{
     display: flex;
+    justify-content:space-around;
+    padding-bottom: 5vh;
 
 }
 .Molecule{
-    
+    display: flex;
+     flex-direction: column; 
 } 
-.container{
-
-}
 .main img{
+    height: 16vh;
+    width: 14vw;
+    border-radius: 15px;
 
 }
 .main p{
-
+    color: white;
+    width: 14vw;
+    text-align: justify;
 }
 
+.main h2{
+    color: white;
+    font: size 2vw;
+}
 
-
-
+.yellow{
+    background: yellow;
+    height: 1vh;
+    width: 100%;
+}
 
