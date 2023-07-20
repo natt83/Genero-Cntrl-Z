@@ -18,13 +18,11 @@
 .contenedor {
     display: flex;
     width: 100%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    
-}
+    margin:0;
+    padding:0;
+    position:absolute;
+    display:inline-block;
+    text-align:center;}
  .imagen{
     background-size: cover;
     width:100%;
@@ -59,9 +57,54 @@
     right: 80%;
     color:white;
     font-family:"Ysabeau";
-    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+    src: url(./YsabeauOffice-VariableFont_wght.ttf);}
+
+
+ .conteinerparrafo{ 
+    width:100%; 
+    justify-content: end;
+    margin-left: 5vh;
+    margin-right: 15vh;
 }
 
+.parrafo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:white ;
+    font-family: "cinzel" ;}
+    
+.total { 
+    display: flex;
+    background: linear-gradient(#1e6468,#24d4df);
+    height: 10vh;
+    align-items: center;
+
+}
+
+.inicio{ 
+   display: flex;
+   justify-content: flex-start;
+   background-color:#2A959B;
+   color:rgb(255, 255, 255) ;
+   font-family:"cinzel" ;
+   margin-left: 5vh;
+   margin-right: 15vh;
+   border-radius: 25%; 
+   border: #1e6468;}
+.conteinerparrafo{ 
+   width:100%; 
+   justify-content: end;
+   margin-left: 5vh;
+   margin-right: 15vh;
+}
+
+.parrafo{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   color:white ;
+   font-family: "cinzel" ;}
  
 
  
