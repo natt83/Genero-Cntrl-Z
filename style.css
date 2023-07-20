@@ -12,12 +12,16 @@
 @font-face {
     font-family: "Cinzel";
     src: url(./Cinzel-VariableFont_wght.ttf);
+<<<<<<< HEAD
     
 }
 .headerMain{
     background-image: url(./foto\ 4chicas.jpg);
     height: 45vh;
+    background-repeat: no-repeat;
+    background-size:cover;
 
+   
 }
 
 .contenedor {
@@ -97,6 +101,7 @@
 
  
 
+<<<<<<< HEAD
 #body{
 background-color: black;
 padding-top: 5vh;
@@ -137,3 +142,59 @@ padding-bottom: 5vh;
 a{text-decoration: none;
 color: yellow;
 }
+=======
+
+.colorfooter {
+    display: flex;     
+    flex-direction: row;
+    justify-content: space-around;   
+    align-items: baseline; 
+    margin-top: 12vh;
+   
+       
+}
+
+.cise{ 
+    height:10vh;
+   
+}
+
+.gobierno{ 
+           height:10vh}
+
+ .plan{ 
+    height:10vh}       
+    
+.union{ 
+    height:10vh }  
+
+
+footer {
+    border: black 2px solid;
+    background: linear-gradient(#1E6468, #24D4DF);    
+    padding-bottom: 8vh
+ 
+
+       }
+
+   
+.allname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    font-size: 3vh;
+    margin-top: 05vh
+
+}
+
+p {
+    color: aliceblue
+}
+
+.logo {
+    
+    height: 3vh;
+}
+
+>>>>>>> 03fd1f2a18c1ec20bb5a583877938523346f65aa
