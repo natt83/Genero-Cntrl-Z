@@ -14,55 +14,86 @@
     src: url(./Cinzel-VariableFont_wght.ttf);
     
 }
+.headerMain{
+    background-image: url(./foto\ 4chicas.jpg);
+    height: 45vh;
+
+}
 
 .contenedor {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-    
-}
- .imagen{
-    background-size: cover;
-    width:100%;
+    margin-left: 5vw;
+
 }
 
-.centrado {
-    position: absolute;
-    top: 25%;
-    right: 80%;
-    font-size:300%;
-    transform: translate(-50%, -50%);
+
+.genero {
+   padding-top: 3vh;
+    font-size:10vh;
     color: aliceblue;
     font-family:"Ysabeau";
-    src: url(./YsabeauOffice-VariableFont_wght.ttf);
-
+   
 }
 .control h1{
-    position: absolute;
-    top: 50%;
-    right: 70%;
-    font-size: 330%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
+    color: white;
+    font-size: 15vh;
     font-family:"Ysabeau";
-    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+    margin-left: 6vw;
 }
 <<<<<<< HEAD
 
 .subtitle {
-    position: absolute;
-    font-size:190%;
-    top: 70%;
-    right: 80%;
+
+    font-size:6vh;
     color:white;
     font-family:"Ysabeau";
-    src: url(./YsabeauOffice-VariableFont_wght.ttf);
 }
 
+
+ .conteinerparrafo{ 
+    width:100%; 
+    justify-content: end;
+    margin-left: 5vh;
+    margin-right: 15vh;
+}
+
+.parrafo{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:white ;
+    font-family: "cinzel" ;}
+    
+.total { 
+    display: flex;
+    background: linear-gradient(#1e6468,#24d4df);
+    height: 10vh;
+    align-items: center;
+
+}
+
+.inicio{ 
+   display: flex;
+   justify-content: flex-start;
+   background-color:#2A959B;
+   color:rgb(255, 255, 255) ;
+   font-family:"cinzel" ;
+   margin-left: 5vh;
+   margin-right: 15vh;
+   border-radius: 25%; 
+   border: #1e6468;}
+.conteinerparrafo{ 
+   width:100%; 
+   justify-content: end;
+   margin-left: 5vh;
+   margin-right: 15vh;
+}
+
+.parrafo{
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   color:white ;
+   font-family: "cinzel" ;}
  
 
  
