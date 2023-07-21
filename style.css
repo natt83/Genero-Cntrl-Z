@@ -108,6 +108,9 @@
     color: white;
     font-family: "cinzel";
 }
+ .parrafo:hover{
+    transform: scale(1.1);cursor: pointer;
+  }
 
 
 #body {
