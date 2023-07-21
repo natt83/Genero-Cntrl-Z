@@ -13,15 +13,16 @@
     font-family: "Cinzel";
     src: url(./Cinzel-VariableFont_wght.ttf);
 
-    
+
 }
-.headerMain{
+
+.headerMain {
     background-image: url(./foto\ 4chicas.jpg);
     height: 45vh;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-size: cover;
 
-   
+
 }
 
 .contenedor {
@@ -31,149 +32,166 @@
 
 
 .genero {
-   padding-top: 3vh;
-    font-size:10vh;
+    padding-top: 3vh;
+    font-size: 10vh;
     color: aliceblue;
-    font-family:"Ysabeau";
-   
+    font-family: "Ysabeau";
+
 }
-.control h1{
+
+.control h1 {
     color: white;
     font-size: 15vh;
-    font-family:"Ysabeau";
+    font-family: "Ysabeau";
     margin-left: 6vw;
 }
 
 .subtitle {
 
-    font-size:6vh;
-    color:white;
-    font-family:"Ysabeau";
+    font-size: 6vh;
+    color: white;
+    font-family: "Ysabeau";
 }
 
 
- .conteinerparrafo{ 
-    width:100%; 
+.conteinerparrafo {
+    width: 100%;
     justify-content: end;
     margin-left: 5vh;
     margin-right: 15vh;
 }
 
-.parrafo{
+.parrafo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color:white ;
-    font-family: "cinzel" ;}
-    
-.total { 
+    color: white;
+    font-family: "cinzel";
+}
+
+.total {
     display: flex;
-    background: linear-gradient(#1e6468,#24d4df);
+    background: linear-gradient(#1e6468, #24d4df);
     height: 10vh;
     align-items: center;
 
 }
 
-.inicio{ 
-   display: flex;
-   justify-content: flex-start;
-   background-color:#2A959B;
-   color:rgb(255, 255, 255) ;
-   font-family:"cinzel" ;
-   margin-left: 5vh;
-   margin-right: 15vh;
-   border-radius: 25%; 
-   border: #1e6468;}
-.conteinerparrafo{ 
-   width:100%; 
-   justify-content: end;
-   margin-left: 5vh;
-   margin-right: 15vh;
-}
-
-.parrafo{
-   display: flex;
-   justify-content: flex-end;
-   align-items: center;
-   color:white ;
-   font-family: "cinzel" ;}
- 
-
-#body{
-background-color: black;
-padding-top: 5vh;
-padding-bottom: 5vh;
-}
-.mediumBox{
+.inicio {
     display: flex;
-    justify-content:space-around;
+    justify-content: flex-start;
+    background-color: #2A959B;
+    color: rgb(255, 255, 255);
+    font-family: "cinzel";
+    margin-left: 5vh;
+    margin-right: 15vh;
+    border-radius: 25%;
+    border: #1e6468;
+}
+
+.inicio:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.conteinerparrafo {
+    width: 100%;
+    justify-content: end;
+    margin-left: 5vh;
+    margin-right: 15vh;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-family: "cinzel";
+}
+
+
+#body {
+    background-color: black;
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.mediumBox {
+    display: flex;
+    justify-content: space-around;
     padding-bottom: 5vh;
 
 }
-.Molecule{
+
+.Molecule {
     display: flex;
-     flex-direction: column; 
-} 
-.main img{
+    flex-direction: column;
+}
+
+.main img {
     height: 16vh;
     width: 14vw;
     border-radius: 15px;
 
 }
-.main p{
+
+.main p {
     color: white;
     width: 14vw;
     text-align: justify;
 }
 
-.main h2{
+.main h2 {
     color: white;
     font: size 2vw;
 }
 
-.yellow{
+.yellow {
     background: yellow;
     height: 1vh;
     width: 100%;
 }
-a{text-decoration: none;
-color: yellow;
+
+a {
+    text-decoration: none;
+    color: yellow;
 }
 
 .colorfooter {
-    display: flex;     
+    display: flex;
     flex-direction: row;
-    justify-content: space-around;   
-    align-items: baseline; 
+    justify-content: space-around;
+    align-items: baseline;
     margin-top: 12vh;
-   
-       
+
+
 }
 
-.cise{ 
-    height:10vh;
-   
+.cise {
+    height: 10vh;
+
 }
 
-.gobierno{ 
-           height:10vh}
+.gobierno {
+    height: 10vh
+}
 
- .plan{ 
-    height:10vh}       
-    
-.union{ 
-    height:10vh }  
+.plan {
+    height: 10vh
+}
+
+.union {
+    height: 10vh
+}
 
 
 footer {
     border: black 2px solid;
-    background: linear-gradient(#1E6468, #24D4DF);    
+    background: linear-gradient(#1E6468, #24D4DF);
     padding-bottom: 8vh
- 
+}
 
-       }
 
-   
 .allname {
     display: flex;
     flex-direction: row;
@@ -181,7 +199,6 @@ footer {
     justify-content: space-around;
     font-size: 3vh;
     margin-top: 05vh
-
 }
 
 p {
@@ -189,8 +206,6 @@ p {
 }
 
 .logo {
-    
+
     height: 3vh;
 }
-
-
