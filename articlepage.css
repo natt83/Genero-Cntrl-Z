@@ -63,7 +63,7 @@
 
 }
 
-total {
+ .total {
     display: flex;
     background: linear-gradient(#1e6468, #24d4df);
     height: 10vh;
