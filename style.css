@@ -126,28 +126,7 @@
 
 }
 
-.Molecule {
-    display: flex;
-    flex-direction: column;
-}
-
-.main img {
-    height: 16vh;
-    width: 14vw;
-    border-radius: 15px;
-
-}
-
-.main p {
-    color: white;
-    width: 14vw;
-    text-align: justify;
-}
-
-.main h2 {
-    color: white;
-    font: size 2vw;
-}
+ 
 
 .yellow {
     background: yellow;
@@ -160,7 +139,6 @@ a {
     color: yellow;
 }
 
-<<<<<<< HEAD
 .main{
     background-color: black;
     color: white;
@@ -178,7 +156,6 @@ a {
          
 } 
 
-=======
 .colorfooter {
     display: flex;
     flex-direction: row;
@@ -231,4 +208,3 @@ p {
 
     height: 3vh;
 }
->>>>>>> origin/footer
