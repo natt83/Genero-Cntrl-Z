@@ -52,13 +52,15 @@
     color: white;
     font-family: "Ysabeau";
 }
-
+.inicio{ 
+    font-size: 4vh;}
 
 .conteinerparrafo {
     width: 100%;
     justify-content: end;
     margin-left: 5vh;
     margin-right: 15vh;
+    font-size: 4vh;
 }
 
 .parrafo {
@@ -67,6 +69,7 @@
     align-items: center;
     color: white;
     font-family: "cinzel";
+    
 }
 
 .total {
@@ -129,6 +132,8 @@
 .Molecule {
     display: flex;
     flex-direction: column;
+    font-size: 3vh;
+    
 }
 
 .main img {
