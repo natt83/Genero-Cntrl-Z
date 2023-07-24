@@ -39,7 +39,7 @@
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-family: "Ysabeau";
-    
+
 }
 
 .control h1 {
@@ -50,7 +50,7 @@
     transform: translate(-50%, -50%);
     color: aliceblue;
     font-family: "Ysabeau";
-   
+
 }
 
 .subtitle {
@@ -60,8 +60,47 @@
     right: 80%;
     color: white;
     font-family: "Ysabeau";
- 
+
 }
+
+total {
+    display: flex;
+    background: linear-gradient(#1e6468, #24d4df);
+    height: 10vh;
+    align-items: center;
+
+}
+
+.inicio {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #2A959B;
+    color: rgb(255, 255, 255);
+    font-family: "cinzel";
+    margin-left: 5vh;
+    margin-right: 15vh;
+    border-radius: 25%;
+    border: #1e6468;
+}
+
+.conteinerparrafo {
+    width: 100%;
+    justify-content: end;
+    margin-left: 5vh;
+    margin-right: 15vh;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-family: "cinzel";
+}
+
+
+
+
 
 .background {
 
@@ -95,5 +134,5 @@
 }
 
 body {
-    border-bottom: yellow 10px solid;}
-
+    border-bottom: yellow 10px solid;
+}
