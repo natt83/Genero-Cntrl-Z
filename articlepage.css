@@ -15,6 +15,54 @@
     src: url(./Cinzel-VariableFont_wght.ttf);
 }
 
+.contenedor {
+    display: flex;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    display: inline-block;
+    text-align: center;
+
+}
+
+.imagen {
+    background-size: cover;
+    width: 100%;
+}
+
+.centrado {
+    position: absolute;
+    top: 25%;
+    right: 80%;
+    font-size: 300%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: "Ysabeau";
+    
+}
+
+.control h1 {
+    position: absolute;
+    top: 50%;
+    right: 70%;
+    font-size: 330%;
+    transform: translate(-50%, -50%);
+    color: aliceblue;
+    font-family: "Ysabeau";
+   
+}
+
+.subtitle {
+    position: absolute;
+    font-size: 190%;
+    top: 70%;
+    right: 80%;
+    color: white;
+    font-family: "Ysabeau";
+ 
+}
+
 .background {
 
     background-color: #000000;
@@ -25,7 +73,7 @@
 
 }
 
-.background h2{
+.background h2 {
     color: white;
     margin-bottom: 3vw;
     font-size: 300%;
@@ -34,21 +82,18 @@
 
 }
 
-.background img{
+.background img {
     width: 100%;
     height: 60vh;
     align-items: flex-start;
 
 }
 
-.background p{
+.background p {
     color: white;
     margin-top: 5vw;
 }
-body{
-    border-bottom: yellow 10px solid;
 
-}
-    
-    
+body {
+    border-bottom: yellow 10px solid;}
 
