@@ -15,52 +15,41 @@
     src: url(./Cinzel-VariableFont_wght.ttf);
 }
 
-.contenedor {
-    display: flex;
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    display: inline-block;
-    text-align: center;
-
-}
-
-.imagen {
+.headerMain {
+    background-image: url(./image/foto\ 4chicas.jpg);
+    height: 45vh;
+    background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+
+
 }
 
-.centrado {
-    position: absolute;
-    top: 25%;
-    right: 80%;
-    font-size: 300%;
-    transform: translate(-50%, -50%);
+.contenedor {
+    margin-left: 5vw;
+
+}
+
+
+.genero {
+    padding-top: 3vh;
+    font-size: 10vh;
     color: aliceblue;
     font-family: "Ysabeau";
 
 }
 
 .control h1 {
-    position: absolute;
-    top: 50%;
-    right: 70%;
-    font-size: 330%;
-    transform: translate(-50%, -50%);
-    color: aliceblue;
+    color: white;
+    font-size: 15vh;
     font-family: "Ysabeau";
-
+    margin-left: 6vw;
 }
 
 .subtitle {
-    position: absolute;
-    font-size: 190%;
-    top: 70%;
-    right: 80%;
+
+    font-size: 6vh;
     color: white;
     font-family: "Ysabeau";
-
 }
 
  .total {
@@ -121,7 +110,7 @@
 
 }
 
-.background img {
+.photho{
     width: 100%;
     height: 60vh;
     align-items: flex-start;

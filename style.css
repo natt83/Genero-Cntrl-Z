@@ -126,19 +126,21 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 5vh;
-
+    
 }
+
 
 .Molecule {
     display: flex;
     flex-direction: column;
-    font-size: 3vh;
+        font-size: 3vh;
     
 }
 
+
 .main img {
-    height: 16vh;
-    width: 14vw;
+    height: 32vh;
+    width: 24 vw;
     border-radius: 15px;
 
 }
@@ -160,7 +162,7 @@
     width: 100%;
 }
 
-a {
+.a {
     text-decoration: none;
     color: yellow;
 }
@@ -193,7 +195,7 @@ a {
 }
 
 
-footer {
+.footer {
     border: black 2px solid;
     background: linear-gradient(#1E6468, #24D4DF);
     padding-bottom: 8vh
@@ -209,7 +211,7 @@ footer {
     margin-top: 05vh
 }
 
-p {
+.p {
     color: aliceblue
 }
 
