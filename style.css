@@ -129,14 +129,13 @@
     
 }
 
-
 .Molecule {
     display: flex;
     flex-direction: column;
-        font-size: 3vh;
+    align-items: center;
+ font-size: 3vh;
     
-}
-
+} 
 
 .main img {
     height: 32vh;
@@ -144,7 +143,6 @@
     border-radius: 15px;
 
 }
-
 .main p {
     color: white;
     width: 14vw;
@@ -213,9 +211,65 @@ footer {
 
 p {
     color: aliceblue
-}
+    }
 
 .logo {
 
     height: 3vh;
 }
+.logoandcopy{
+    display: flex;
+}
+@media (max-width:414px){
+.colorfooter{
+    
+    
+    justify-content: center;
+       
+
+}
+
+.mediumBox{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.Molecule{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.cise{
+    height: 5vh;
+
+}
+.gobierno{
+    height: 5vh;
+}
+.plan{
+    height: 5vh;
+}
+.union{
+    height: 5vh;
+}
+
+.politica{
+    font-size: 2vh;
+}
+
+
+    
+
+.allname{
+    display:flex;
+    justify-content:center;
+    flex-direction: column;
+   
+}
+}
+
+
+
+    
+                                       
