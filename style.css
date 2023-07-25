@@ -17,7 +17,7 @@
 }
 
 .headerMain {
-    background-image: url(./foto\ 4chicas.jpg);
+    background-image: url(./img/foto4chicas.jpg);
     height: 45vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -195,7 +195,7 @@
 }
 
 
-.footer {
+footer {
     border: black 2px solid;
     background: linear-gradient(#1E6468, #24D4DF);
     padding-bottom: 8vh
