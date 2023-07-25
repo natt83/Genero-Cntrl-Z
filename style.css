@@ -52,13 +52,15 @@
     color: white;
     font-family: "Ysabeau";
 }
-
+.inicio{ 
+    font-size: 4vh;}
 
 .conteinerparrafo {
     width: 100%;
     justify-content: end;
     margin-left: 5vh;
     margin-right: 15vh;
+    font-size: 4vh;
 }
 
 .parrafo {
@@ -67,6 +69,7 @@
     align-items: center;
     color: white;
     font-family: "cinzel";
+    
 }
 
 .total {
@@ -123,9 +126,15 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 5vh;
-
+    
 }
 
+h2 h3{
+    padding-top: 20px;
+}
+p{
+    padding-bottom: 40px;
+}
  
 
 .yellow {
