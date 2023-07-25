@@ -71,7 +71,10 @@
     border-radius: 25%;
     border: #1e6468;
 }
-
+.inicio:hover{ 
+    transform: scale(1.1);
+    cursor: pointer;
+}
 .conteinerparrafo {
     width: 100%;
     justify-content: end;
@@ -85,6 +88,10 @@
     align-items: center;
     color: white;
     font-family: "cinzel";
+}
+.parrafo:hover{ 
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 

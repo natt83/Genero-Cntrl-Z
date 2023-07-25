@@ -12,12 +12,10 @@
 @font-face {
     font-family: "Cinzel";
     src: url(./Cinzel-VariableFont_wght.ttf);
-
-
 }
 
 .headerMain {
-    background-image: url(./img/foto4chicas.jpg);
+    background-image: url(../img/foto4chicas.jpg);
     height: 45vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -52,26 +50,6 @@
     color: white;
     font-family: "Ysabeau";
 }
-.inicio{ 
-    font-size: 4vh;}
-
-.conteinerparrafo {
-    width: 100%;
-    justify-content: end;
-    margin-left: 5vh;
-    margin-right: 15vh;
-    font-size: 4vh;
-}
-
-.parrafo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
-    font-family: "cinzel";
-    
-}
-
 .total {
     display: flex;
     background: linear-gradient(#1e6468, #24d4df);
@@ -91,6 +69,23 @@
     border-radius: 25%;
     border: #1e6468;
 }
+
+.conteinerparrafo {
+    width: 100%;
+    justify-content: end;
+    margin-left: 5vh;
+    margin-right: 15vh;
+}
+
+.parrafo {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color: white;
+    font-family: "cinzel";
+}
+
+
 
 .inicio:hover {
     transform: scale(1.1);
@@ -129,12 +124,9 @@
     
 }
 
-h2 h3{
-    padding-top: 20px;
-}
-p{
-    padding-bottom: 40px;
-}
+
+
+
  
 
 .yellow {
