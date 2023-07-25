@@ -143,7 +143,7 @@ p{
     width: 100%;
 }
 
-a {
+.a {
     text-decoration: none;
     color: yellow;
 }
@@ -193,7 +193,7 @@ a {
 }
 
 
-footer {
+.footer {
     border: black 2px solid;
     background: linear-gradient(#1E6468, #24D4DF);
     padding-bottom: 8vh
@@ -209,7 +209,7 @@ footer {
     margin-top: 05vh
 }
 
-p {
+.p {
     color: aliceblue
 }
 
