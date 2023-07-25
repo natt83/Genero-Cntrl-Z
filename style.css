@@ -50,6 +50,7 @@
     color: white;
     font-family: "Ysabeau";
 }
+
 .total {
     display: flex;
     background: linear-gradient(#1e6468, #24d4df);
@@ -106,9 +107,11 @@
     color: white;
     font-family: "cinzel";
 }
- .parrafo:hover{
-    transform: scale(1.1);cursor: pointer;
-  }
+
+.parrafo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
 
 
 #body {
@@ -121,13 +124,35 @@
     display: flex;
     justify-content: space-around;
     padding-bottom: 5vh;
-    
+
 }
 
+.Molecule {
+    display: flex;
+    flex-direction: column;
+    font-size: 3vh;
 
+}
 
+.main img {
+    height: 32vh;
+    width: 24vw;
+    border-radius: 15px
+}
 
- 
+.main p {
+    color: white;
+    width: 14vw;
+    text-align: justify;
+
+}
+
+.main p {
+    color: white;
+    width: 14vw;
+    text-align: justify;
+
+}
 
 .yellow {
     background: yellow;
@@ -140,22 +165,22 @@
     color: yellow;
 }
 
-.main{
+.main {
     background-color: black;
     color: white;
 
-    
-    
-    
+
+
+
 }
 
 
-.datos{
-     display: flex;
-     flex-direction: column ;
-     text-align: center;
-         
-} 
+.datos {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
 
 .colorfooter {
     display: flex;
@@ -208,4 +233,5 @@ footer {
 .logo {
 
     height: 3vh;
+    
 }
