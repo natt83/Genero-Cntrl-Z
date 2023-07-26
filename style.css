@@ -187,9 +187,11 @@
 
 footer {
     border: black 2px solid;
-    background: linear-gradient(#1E6468, #24D4DF);
+    background: linear-gradient(#1E6468, #24D4DF);    
     padding-bottom: 8vh
-}
+ 
+
+       }
 
 
 .allname {
@@ -199,6 +201,7 @@ footer {
     justify-content: space-around;
     font-size: 3vh;
     margin-top: 05vh
+
 }
 .allfooter{ color: white;}
 
