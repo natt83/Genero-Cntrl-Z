@@ -14,25 +14,6 @@
     src: url(./Cinzel-VariableFont_wght.ttf);
 }
 
-<<<<<<< HEAD
-.main{
-    background-color: black;
-    color: white;
-
-    
-    
-    
-}
-
-
-.datos{
-     display: flex;
-     flex-direction: column ;
-     text-align: center;
-         
-} 
-
-=======
 .colorfooter {
     display: flex;     
     flex-direction: row;
@@ -85,4 +66,3 @@ p {
     
     height: 3vh;
 }
->>>>>>> origin/footer
