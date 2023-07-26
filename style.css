@@ -49,6 +49,7 @@
     font-size: 6vh;
     color: white;
     font-family: "Ysabeau";
+    
 }
 
 .total {
@@ -110,13 +111,13 @@
 .mediumBox {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 5vh;}
+    margin-bottom: 5vh;}
 
 .Molecule {
     display: flex;
     flex-direction: column;
     align-items: center;
- font-size: 3vh;
+    font-size: 3vh;
     
 } 
 
@@ -129,14 +130,14 @@
 
 .main p {
     color: white;
-    width: 14vw;
+    width: 24vw;
     text-align: justify;
 
 }
 
 
 .yellow {
-    background: yellow;
+    background: #EEE616;
     height: 1vh;
     width: 100%;
 }
@@ -188,11 +189,9 @@ a {
 
 footer {
     border: black 2px solid;
-    background: linear-gradient(#1E6468, #24D4DF);    
+    background: linear-gradient(#1E6468, #24D4DF);
     padding-bottom: 8vh
- 
-
-       }
+}
 
 
 .allname {
@@ -202,19 +201,23 @@ footer {
     justify-content: space-around;
     font-size: 3vh;
     margin-top: 05vh
-
 }
-.allfooter{ color: white;}
 
+.allfooter{color: white;}
 
 .logo {
 
     height: 3vh;
+
+}
+.logoandcopy{
+    display: flex;
 }
 
 
 @media (max-width:414px){
-.colorfooter{
+
+    .colorfooter{
         
     justify-content: center;
        
@@ -228,8 +231,7 @@ footer {
 .Molecule{
     display:flex;
     justify-content: center;
-    flex-direction: column;
-  
+    flex-direction: column;  
     
 }
 .cise{
@@ -250,13 +252,19 @@ footer {
     font-size: 2vh;
 }    
 
-.allname{
+.allname {
     display:flex;
-    justify-content:center;
+    justify-content: center;
+    flex-direction: column;    
+    
+   }
+   .colorfooter{
+    display: flex;
     flex-direction: column;
    }
+
 }
 
- 
+
                                        
     
