@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: "Ysabeau";
+
 }
 
 @font-face {
     font-family: "Ysabeau";
-    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+    src: url(../YsabeauOffice-VariableFont_wght.ttf)
 }
 
 @font-face {
     font-family: "Cinzel";
-    src: url(./Cinzel-VariableFont_wght.ttf);
+    src: url(../Cinzel-VariableFont_wght.ttf);
 }
 
 .headerMain {
@@ -51,6 +52,10 @@
     font-family: "Ysabeau";
 }
 
+.inicio {
+    font-size: 3vh;
+}
+
 .total {
     display: flex;
     background: linear-gradient(#1e6468, #24d4df);
@@ -69,25 +74,7 @@
     margin-right: 15vh;
     border-radius: 25%;
     border: #1e6468;
-    font-size: 3vh;
 }
-
-.conteinerparrafo {
-    width: 100%;
-    justify-content: end;
-    margin-left: 5vh;
-    margin-right: 15vh;
-}
-
-.parrafo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
-    font-family: "cinzel";
-}
-
-
 
 .inicio:hover {
     transform: scale(1.1);
@@ -99,6 +86,7 @@
     justify-content: end;
     margin-left: 5vh;
     margin-right: 15vh;
+    font-size: 4vh;
 }
 
 .parrafo {
@@ -115,82 +103,41 @@
 }
 
 
-#body {
-    background-color: black;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-}
 
-.mediumBox {
-    display: flex;
-    justify-content: space-around;
-    padding-bottom: 5vh;
 
-<<<<<<< HEAD
-.Molecule {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- font-size: 3vh;
-    
-} 
-=======
-}
 
-.Molecule {
-    display: flex;
-    flex-direction: column;
-    font-size: 3vh;
+.background {
+
+    background-color: #000000;
+    padding-left: 7vw;
+    padding-top: 3vw;
+    padding-right: 7vw;
+    padding-bottom: 3vw;
 
 }
->>>>>>> eee85ab12eb209749ac0627dca0552205f11306e
 
-.main img {
-    height: 32vh;
-    width: 24vw;
-    border-radius: 15px
-}
-
-.main p {
+.background h2 {
     color: white;
-    width: 14vw;
-    text-align: justify;
+    margin-bottom: 3vw;
+    font-size: 300%;
 
-}
-.main p {
-    color: white;
-    width: 14vw;
-    text-align: justify;
+
 
 }
 
-.yellow {
-    background: yellow;
-    height: 1vh;
+.photho {
     width: 100%;
+    height: 60vh;
+    align-items: flex-start;
+
 }
 
-.a {
-    text-decoration: none;
-    color: yellow;
-}
-
-.main {
-    background-color: black;
+.background p {
     color: white;
-
-
-
-
+    margin-top: 5vw;
 }
 
 
-.datos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
 
 .colorfooter {
     display: flex;
@@ -218,15 +165,17 @@
 .union {
     height: 10vh
 }
-
+.yellow {
+    background: yellow;
+    height: 1vh;
+    width: 100%;
+}
 
 footer {
     border: black 2px solid;
-    background: linear-gradient(#1E6468, #24D4DF);    
+    background: linear-gradient(#1E6468, #24D4DF);
     padding-bottom: 8vh
- 
-
-       }
+}
 
 
 .allname {
@@ -236,72 +185,14 @@ footer {
     justify-content: space-around;
     font-size: 3vh;
     margin-top: 05vh
-
 }
 
 .p {
     color: aliceblue
-    }
+}
 
 .logo {
 
     height: 3vh;
-}
-.logoandcopy{
-    display: flex;
-}
-@media (max-width:414px){
-.colorfooter{
-    
-    
-    justify-content: center;
-       
 
-}
-
-.mediumBox{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.Molecule{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;
-    
-}
-.cise{
-    height: 5vh;
-
-}
-.gobierno{
-    height: 5vh;
-}
-.plan{
-    height: 5vh;
-}
-.union{
-    height: 5vh;
-}
-
-.politica{
-    font-size: 2vh;
-}
-
-
-    
-
-.allname{
-    display:flex;
-    justify-content:center;
-    flex-direction: column;
-   
-}
-}
-
-
-
-    
-                                       
-    
 }
