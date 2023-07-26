@@ -207,9 +207,8 @@ footer {
 
     height: 3vh;
 }
-.logoandcopy{
-    display: flex;
-}
+
+
 @media (max-width:414px){
 .colorfooter{
         
