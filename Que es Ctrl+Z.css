@@ -2,16 +2,17 @@
     margin: 0;
     padding: 0;
     font-family: "Ysabeau";
+
 }
 
 @font-face {
     font-family: "Ysabeau";
-    src: url(./YsabeauOffice-VariableFont_wght.ttf);
+    src: url(../YsabeauOffice-VariableFont_wght.ttf)
 }
 
 @font-face {
     font-family: "Cinzel";
-    src: url(./Cinzel-VariableFont_wght.ttf);
+    src: url(../Cinzel-VariableFont_wght.ttf);
 }
 
 .headerMain {
@@ -49,7 +50,10 @@
     font-size: 6vh;
     color: white;
     font-family: "Ysabeau";
-    
+}
+
+.inicio {
+    font-size: 3vh;
 }
 
 .total {
@@ -70,7 +74,11 @@
     margin-right: 15vh;
     border-radius: 25%;
     border: #1e6468;
-    font-size: 2.5vh;
+}
+
+.inicio:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
 .conteinerparrafo {
@@ -78,6 +86,7 @@
     justify-content: end;
     margin-left: 5vh;
     margin-right: 15vh;
+    font-size: 4vh;
 }
 
 .parrafo {
@@ -86,15 +95,7 @@
     align-items: center;
     color: white;
     font-family: "cinzel";
-    font-size: 2.5vh;
 }
-
-
-.inicio:hover {
-    transform: scale(1.1);
-    cursor: pointer;
-}
-
 
 .parrafo:hover {
     transform: scale(1.1);
@@ -102,64 +103,41 @@
 }
 
 
-#body {
-    background-color: black;
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+
+
+
+.background {
+
+    background-color: #000000;
+    padding-left: 7vw;
+    padding-top: 3vw;
+    padding-right: 7vw;
+    padding-bottom: 3vw;
+
 }
 
-.mediumBox {
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 5vh;}
-
-.Molecule {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- font-size: 3vh;
-    
-} 
-
-
-.main img {
-    height: 32vh;
-    width: 24vw;
-    border-radius: 15px
-}
-
-.main p {
+.background h2 {
     color: white;
-    width: 24vw;
-    text-align: justify;
+    margin-bottom: 3vw;
+    font-size: 300%;
+
+
 
 }
 
-
-.yellow {
-    background: #EEE616;
-    height: 1vh;
+.photho {
     width: 100%;
+    height: 60vh;
+    align-items: flex-start;
+
 }
 
-a {
-    text-decoration: none;
-    color: #EEE616;
-}
-
-.main {
-    background-color: black;
+.background p {
     color: white;
-
+    margin-top: 5vw;
 }
 
 
-.datos {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-
-}
 
 .colorfooter {
     display: flex;
@@ -167,6 +145,8 @@ a {
     justify-content: space-around;
     align-items: baseline;
     margin-top: 12vh;
+
+
 }
 
 .cise {
@@ -185,7 +165,11 @@ a {
 .union {
     height: 10vh
 }
-
+.yellow {
+    background: yellow;
+    height: 1vh;
+    width: 100%;
+}
 
 footer {
     border: black 2px solid;
@@ -210,61 +194,3 @@ footer {
     height: 3vh;
 
 }
-.logoandcopy{
-    display: flex;
-}
-
-
-@media (max-width:414px)
-{
-.colorfooter{
-        
-    justify-content: center;
-       
-}
-
-.mediumBox{
-    display:flex;
-    flex-direction: column;
-    justify-content: center;
-}
-.Molecule{
-    display:flex;
-    justify-content: center;
-    flex-direction: column;  
-    
-}
-.cise{
-    height: 5vh;
-
-}
-.gobierno{
-    height: 5vh;
-}
-.plan{
-    height: 5vh;
-}
-.union{
-    height: 5vh;
-}
-
-.politica{
-    font-size: 2vh;
-}    
-
-.allname {
-    display:flex;
-    justify-content: center;
-    flex-direction: column;    
-    
-   }
-   .colorfooter{
-    display: flex;
-    flex-direction: column;
-   }
-
-}
-
- 
-                                       
-    
