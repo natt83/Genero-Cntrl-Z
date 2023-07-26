@@ -88,26 +88,11 @@
 }
 
 
-
 .inicio:hover {
     transform: scale(1.1);
     cursor: pointer;
 }
 
-.conteinerparrafo {
-    width: 100%;
-    justify-content: end;
-    margin-left: 5vh;
-    margin-right: 15vh;
-}
-
-.parrafo {
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    color: white;
-    font-family: "cinzel";
-}
 
 .parrafo:hover {
     transform: scale(1.1);
@@ -124,9 +109,8 @@
 .mediumBox {
     display: flex;
     justify-content: space-around;
-    padding-bottom: 5vh;
+    padding-bottom: 5vh;}
 
-<<<<<<< HEAD
 .Molecule {
     display: flex;
     flex-direction: column;
@@ -134,16 +118,7 @@
  font-size: 3vh;
     
 } 
-=======
-}
 
-.Molecule {
-    display: flex;
-    flex-direction: column;
-    font-size: 3vh;
-
-}
->>>>>>> eee85ab12eb209749ac0627dca0552205f11306e
 
 .main img {
     height: 32vh;
@@ -157,12 +132,7 @@
     text-align: justify;
 
 }
-.main p {
-    color: white;
-    width: 14vw;
-    text-align: justify;
 
-}
 
 .yellow {
     background: yellow;
@@ -178,9 +148,6 @@
 .main {
     background-color: black;
     color: white;
-
-
-
 
 }
 
@@ -198,8 +165,6 @@
     justify-content: space-around;
     align-items: baseline;
     margin-top: 12vh;
-
-
 }
 
 .cise {
@@ -235,10 +200,8 @@ footer {
     font-size: 3vh;
     margin-top: 05vh
 }
+.allfooter{ color: white;}
 
-.p {
-    color: aliceblue
-    }
 
 .logo {
 
@@ -249,11 +212,9 @@ footer {
 }
 @media (max-width:414px){
 .colorfooter{
-    
-    
+        
     justify-content: center;
        
-
 }
 
 .mediumBox{
@@ -265,6 +226,7 @@ footer {
     display:flex;
     justify-content: center;
     flex-direction: column;
+  
     
 }
 .cise{
@@ -283,22 +245,15 @@ footer {
 
 .politica{
     font-size: 2vh;
-}
-
-
-    
+}    
 
 .allname{
     display:flex;
     justify-content:center;
     flex-direction: column;
-   
+   }
 }
-}
 
-
-
-    
+ 
                                        
     
-}
