@@ -54,6 +54,7 @@
 
 .inicio {
     font-size: 3vh;
+    text-decoration: none;
 }
 
 .total {
@@ -75,11 +76,13 @@
     border-radius: 25%;
     border: #1e6468;
     font-size: 2.5vh;
+    text-decoration: none;
 }
 
 .inicio:hover {
     transform: scale(1.1);
     cursor: pointer;
+    text-decoration: none;
 }
 
 .conteinerparrafo {
@@ -132,11 +135,13 @@
     height: 60vh;
     align-items: flex-start;
 
+
 }
 
 .background p {
     color: white;
     margin-top: 5vw;
+    text-align: justify;
 }
 
 

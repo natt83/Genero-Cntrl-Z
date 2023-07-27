@@ -71,6 +71,7 @@
     border-radius: 25%;
     border: #1e6468;
     font-size: 2.5vh;
+    text-decoration: none;
 }
 
 .conteinerparrafo {
@@ -94,6 +95,7 @@
 .inicio:hover {
     transform: scale(1.1);
     cursor: pointer;
+    text-decoration: none;
 }
 
 
