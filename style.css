@@ -220,29 +220,30 @@ footer {
 
 @media (max-width:414px){
 
-    .colorfooter{
-        
-    justify-content: center;
-       
-}
-
+ .subtitle {
+    font-size: small;
+ }
 .mediumBox{
     display:flex;
     flex-direction: column;
     justify-content: center;
+      
 }
 .Molecule{
     display:flex;
     justify-content: center;
     flex-direction: column;  
+         
     
 }
 .cise{
     height: 5vh;
+    
 
 }
 .gobierno{
     height: 5vh;
+    
 }
 .plan{
     height: 5vh;
@@ -258,16 +259,16 @@ footer {
 .allname {
     display:flex;
     justify-content: center;
-    flex-direction: column;    
-    
+    flex-direction: column;   
+    align-items: baseline;   
+    margin-left: 10vh;      
    }
    .colorfooter{
     display: flex;
     flex-direction: column;
-   }
-
-}
-
+    margin-left: 10vh;
+       }
+    .parrafo{font-size: 2vh;g}
 
                                        
     

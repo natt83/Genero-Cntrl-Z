@@ -52,8 +52,7 @@
     font-family: "Ysabeau";
 }
 
-.inicio {
-    font-size: 3vh;
+a{
     text-decoration: none;
 }
 
@@ -76,7 +75,7 @@
     border-radius: 25%;
     border: #1e6468;
     font-size: 2.5vh;
-    text-decoration: none;
+   
 }
 
 .inicio:hover {
@@ -199,5 +198,57 @@ footer {
 .logo {
 
     height: 3vh;
-
 }
+
+    logoandcopy{
+        display: flex;
+    }
+    @media (max-width:414px){
+
+        
+    
+    .mediumBox{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Molecule{
+        display:flex;
+        justify-content: center;
+        flex-direction: column;  
+        
+    }
+    .cise{
+        height: 5vh;
+    
+    }
+    .gobierno{
+        height: 5vh;
+    }
+    .plan{
+        height: 5vh;
+    }
+    .union{
+        height: 5vh;
+    }
+    
+    .politica{
+        font-size: 2vh;
+    }    
+    
+    .allname {
+        display:flex;
+        justify-content: flex-start;
+        flex-direction: column; 
+        align-items: baseline;   
+        margin-left: 10vh;
+        
+       }
+       .colorfooter{
+        display: flex;
+        flex-direction: column;
+        margin-left: 10vh;
+       }
+    
+    }
+     
