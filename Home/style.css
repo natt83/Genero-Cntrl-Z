@@ -73,22 +73,26 @@
     font-size: 2.5vh;
     text-decoration: none;
 }
-
 .conteinerparrafo {
     width: 100%;
     justify-content: end;
-    margin-left: 5vh;
-    margin-right: 15vh;
+    margin-left: 5%;
+    margin: right 20%;
+    font-size: 2.5vh;
 }
 
 .parrafo {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    color: white;
+    color: rgb(23, 52, 219);
     font-family: "cinzel";
-    font-size: 2.5vh;
-    
+    font-size: 2.5 vh;
+}
+
+.parrafo:hover {
+    transform: scale(1.1);
+    cursor: pointer;
 }
 
  
@@ -100,7 +104,7 @@
 
 
 .parrafo:hover {
-    color: #EEE616;
+    color: #164fee;
     
 }
 
@@ -216,6 +220,12 @@ footer {
 .logoandcopy{
     display: flex;
 }
+.Video{
+    width:  100%;
+    background-color:#1E6468;
+    
+    
+}
 
 
 @media (max-width:414px){
@@ -268,7 +278,7 @@ footer {
     flex-direction: column;
     margin-left: 10vh;
        }
-    .parrafo{font-size: 2vh;g}
+    .parrafo{font-size: 2vh;}}
 
                                        
     
